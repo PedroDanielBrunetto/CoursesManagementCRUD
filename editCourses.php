@@ -45,9 +45,6 @@
             <input type="text" name="valor" value="<?php echo $value; ?>"><br>
 
             <?php 
-                if(!isset($_SESSION)){
-                session_start();
-                }
                 if(isset($_SESSION["Message"])){
                 echo $_SESSION["Message"];
                 unset($_SESSION["Message"]);

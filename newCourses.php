@@ -56,7 +56,6 @@
             <input type="text" placeholder="Ex: '40'" name="horas">
             <label>Valor</label>
             <input type="text" placeholder="R$" name="valor">
-            
             <?php 
                 if(isset($_SESSION["Message"])){
                     echo $_SESSION["Message"];
@@ -65,6 +64,7 @@
                 ?>
 
 <input type="submit" value="Create">
+<a href="index.php">SAIR</a>
 </form>
 </div>
 
